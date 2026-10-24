@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>System Breach</title>
+
+<style>
+body{
+    margin:0;
+    background:black;
+    color:#00ff00;
+    font-family:Consolas, monospace;
+    overflow:hidden;
+}
+
+#hack{
+    padding:20px;
+    font-size:22px;
+    white-space:pre-line;
+}
+
+#surprise{
+    display:none;
+    text-align:center;
+    color:white;
+    padding:30px;
+    background:linear-gradient(135deg,#ff4d6d,#ff8fab);
+    min-height:100vh;
+}
+
+h1{
+    font-size:50px;
+}
+
+.msg{
+    max-width:800px;
+    margin:auto;
+    font-size:20px;
+    line-height:1.8;
+}
+</style>
+</head>
+
+<body>
+
+<div id="hack"></div>
+
+<div id="surprise">
+    <h1>🎂 HAPPY BIRTHDAY BUGGU ❤️ 🎂</h1>
+
+    <div class="msg">
+
+        <p>
+        Meri pyari Buggu ❤️,
+
+        Aaj ka din meri life ke sabse special dino me se ek hai, kyunki aaj tumhara birthday hai. Shayad main shabdon me kabhi itna achha nahi ho paata ki bata sakun ki tum mere liye kitni important ho, lekin aaj dil se ek baat kehna chahta hu.
+
+        Jab se tum meri life me aayi ho, har din thoda aur beautiful ho gaya hai. Tumhari smile mere bure se bure din ko bhi achha bana deti hai. Tumhari baatein, tumhari care, tumhara pyar aur tumhara saath meri zindagi ki sabse keemti cheez hai.
+
+        Meri Buggu, mera Bachha, aaj main bas itna chahta hu ki tum hamesha khush raho. Tumhari har wish puri ho, tumhare har sapne sach ho aur tumhari life me kabhi kisi cheez ki kami na rahe. Tum jitni pyaari aur special ho, utni hi khubsurat tumhari zindagi bhi ho.
+
+        Thank you meri life me aane ke liye, mujhe samajhne ke liye, meri har bakwaas baat sunne ke liye aur mujhe itna pyar dene ke liye. Main promise karta hu ki chahe jo bhi ho, main hamesha tumhare saath rahunga.
+
+        Happy Birthday Meri Jaan, Meri Buggu, Mera Bachha ❤️🎂✨
+
+        I Love You More Than Words Can Ever Explain ❤️
+        </p>
+
+    </div>
+</div>
+
+<script>
+
+const text = [
+"[+] Connecting to target...",
+"[+] Access Granted...",
+"[+] Reading Personal Data...",
+"[+] Target Name Found : BUGGU ❤️",
+"[+] Downloading Memories...",
+"[+] Scanning Heart Files...",
+"[+] LOVE.exe detected...",
+"[+] Birthday Surprise Activated...",
+"[+] System Override Complete..."
+];
+
+let i = 0;
+
+function typeHack(){
+    if(i < text.length){
+        document.getElementById("hack").innerHTML += text[i] + "\\n";
+        i++;
+        setTimeout(typeHack,1000);
+    }else{
+        setTimeout(()=>{
+            document.getElementById("hack").style.display="none";
+            document.getElementById("surprise").style.display="block";
+        },1500);
+    }
+}
+
+typeHack();
+
+</script>
+
+</body>
+</html>
